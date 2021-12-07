@@ -1,0 +1,72 @@
+.container {
+    padding: 16px 15px;
+    text-align: center;
+}
+
+.btncontainer {
+    text-align: center;
+    margin: 12px 12px;
+}
+
+button[type=submit] {
+    width: 25%;
+    padding: 15px 10px;
+}
+
+.imgcontainer {
+    text-align: center;
+}
+
+.cancel {
+    padding: 20px;
+    text-align: left;
+}
+
+button[type=reset] {
+    padding: 12px 12px;
+    align-items: left;
+}
+
+.container #left {
+    text-align: left;
+}
+
+.slides {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: aquamarine;
+}
+
+.video {
+    text-align: center;
+    margin: 0;
+}
+
